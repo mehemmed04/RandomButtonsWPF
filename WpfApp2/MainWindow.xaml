@@ -1,0 +1,74 @@
+﻿<Window x:Class="WpfApp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="780">
+    <Grid>
+
+        <StackPanel Orientation="Vertical">
+            <StackPanel Orientation="Horizontal">
+                <Button Background="Red" 
+                        Name = "btn1" 
+                        FontSize="70" 
+                        Margin="30" 
+                        Width="200" 
+                        Height ="150" 
+                        Click="btn1_Click"
+                        MouseRightButtonDown="btn1_MouseRightButtonDown"   
+                        >1</Button>
+                <Button Background="Aqua" 
+                        Name = "btn2" 
+                        FontSize="70" 
+                        Margin="30" 
+                        Width="200" 
+                        Height ="150" 
+                        Click="btn1_Click" 
+                        MouseRightButtonDown="btn1_MouseRightButtonDown"   
+                        >2</Button>
+                <Button Background="DarkSlateBlue" 
+                        Name = "btn3" FontSize="70" 
+                        Margin="30" Width="200" 
+                        Height ="150" 
+                        Click="btn1_Click"
+                        MouseRightButtonDown="btn1_MouseRightButtonDown"   
+                        
+                        >3</Button>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Button Background="LightGreen" 
+                        Name = "btn4"  
+                        FontSize="70" 
+                        Margin="30" 
+                        Width="200" 
+                        Height ="150" 
+                        Click="btn1_Click"
+                        MouseRightButtonDown="btn1_MouseRightButtonDown"   
+                        
+                        >4</Button>
+                <Button Background="Yellow"  
+                        Name = "btn5"  FontSize="70" 
+                        Margin="30" Width="200" 
+                        Height ="150" 
+                        Click="btn1_Click"
+                        MouseRightButtonDown="btn1_MouseRightButtonDown"   
+                        
+                        >5</Button>
+                <Button Background="SandyBrown"  
+                        Name = "btn6"  
+                        FontSize="70" 
+                        Margin="30" 
+                        Width="200" 
+                        Height ="150" 
+                        Click="btn1_Click"
+                        MouseRightButtonDown="btn1_MouseRightButtonDown"   
+                        
+                        >6</Button>
+            </StackPanel>
+        </StackPanel>
+        
+        
+    </Grid>
+</Window>
