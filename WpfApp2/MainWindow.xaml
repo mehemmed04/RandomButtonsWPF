@@ -8,8 +8,8 @@
         Title="MainWindow" Height="450" Width="780">
     <Grid>
 
-        <StackPanel Orientation="Vertical">
-            <StackPanel Orientation="Horizontal">
+        <StackPanel Orientation="Vertical" Name ="stackpanel1">
+            <StackPanel Orientation="Horizontal" Name ="stackpanel2">
                 <Button Background="Red" 
                         Name = "btn1" 
                         FontSize="70" 
@@ -37,7 +37,7 @@
                         
                         >3</Button>
             </StackPanel>
-            <StackPanel Orientation="Horizontal">
+            <StackPanel Orientation="Horizontal" Name ="stackpanel3">
                 <Button Background="LightGreen" 
                         Name = "btn4"  
                         FontSize="70" 

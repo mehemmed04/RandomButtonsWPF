@@ -37,17 +37,26 @@ namespace WpfApp2
             
         }
 
-        private void btn1_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-           
-        }
+
 
         private void btn1_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
         {
             if (sender is Button btn)
             {
               this.Title = btn.Content.ToString();
+                int btn_content = int.Parse(btn.Content.ToString());
+                MessageBox.Show($"you clickded button {btn_content}");
+                
+                if( btn_content>=1 && btn_content <= 3)
+                {
+                    stackpanel2.Children.Remove(btn);
+                }
+                else if (btn_content >= 4 && btn_content <= 6)
+                {
+                    stackpanel3.Children.Remove(btn);
+                }
             }
+                
         }
     }
 }
